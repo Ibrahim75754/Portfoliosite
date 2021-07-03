@@ -3,9 +3,9 @@
     include "dataclass.php";
 
     $dc= new dataclass();
-    if(!isset($_COOKIE["admin"])){
+    /*if(!isset($_COOKIE["admin"])){
         header("location: login.php");
-    }
+    }*/
 
 ?>
 
